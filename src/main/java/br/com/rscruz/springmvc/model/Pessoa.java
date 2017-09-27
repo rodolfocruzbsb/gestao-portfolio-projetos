@@ -39,7 +39,6 @@ public class Pessoa implements Entidade<Long> {
 	@Column(name = "datanascimento")
 	private LocalDate dataNascimento;
 
-	//@Pattern(regexp = "(^\\d{3}\\x2E\\d{3}\\x2E\\d{3}\\x2D\\d{2}$)")
 	@Size(max = 14)
 	@Column(name = "cpf", length = 14)
 	private String cpf;
