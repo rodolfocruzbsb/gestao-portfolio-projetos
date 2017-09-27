@@ -28,6 +28,7 @@ Projeto de Gestão de portifólio de projetos - Intuito meramente acadêmico
 | Method | POST |
 | Path | /api/pessoas/ |
 | Headers | Content-Type: application/json |
+
 Exemplo Json - Body: 
 ```
 	{
@@ -42,6 +43,7 @@ Exemplo Json - Body:
 | ------ | ------ |
 | Method | PUT |
 | Path | /api/pessoas/{id} |
+
 Exemplo Json - Body: 
 ```
 	{
