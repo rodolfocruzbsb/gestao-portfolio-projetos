@@ -6,6 +6,7 @@ import java.util.Set;
 import javax.persistence.CascadeType;
 import javax.persistence.Column;
 import javax.persistence.Entity;
+import javax.persistence.EnumType;
 import javax.persistence.Enumerated;
 import javax.persistence.FetchType;
 import javax.persistence.GeneratedValue;
@@ -58,14 +59,14 @@ public class Projeto implements Entidade<Long> {
 	private String descricao;
 
 	@Column(name = "status", length = 45)
-	@Enumerated
+	@Enumerated(EnumType.STRING)
 	private StatusDoProjeto status;
 
 	@Column(name = "orcamento")
 	private Double orcamento;
 
 	@Column(name = "risco", length = 45)
-	@Enumerated
+	@Enumerated(EnumType.STRING)
 	private RiscoDoProjeto risco;
 
 	@NotNull
