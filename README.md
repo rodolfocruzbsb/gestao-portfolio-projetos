@@ -7,17 +7,17 @@ Projeto de Gestão de portifólio de projetos - Intuito meramente acadêmico
 
 ## API Rest para Pessoas
 - Buscar todas as pessoas
-|Method|GET|
-|Path|/api/pessoas/|
+| Method | GET |
+| Path | /api/pessoas/ |
 
 - Buscar uma pessoa por ID
-|Method|GET|
-|Path|/api/pessoas/{id}|
+| Method | GET |
+| Path | /api/pessoas/{id} |
 
 - Cadastrar uma pessoa
-|Method|POST|
-|Path|/api/pessoas/|
-|Headers|Content-Type: application/json|
+| Method | POST |
+| Path | /api/pessoas/ |
+| Headers | Content-Type: application/json |
 Exemplo Json - Body: 
 ```
 	{
@@ -28,8 +28,8 @@ Exemplo Json - Body:
 ```
 
 - Alterar uma pessoa
-|Method|PUT|
-|Path|/api/pessoas/{id}|
+| Method | PUT |
+| Path | /api/pessoas/{id} |
 Exemplo Json - Body: 
 ```
 	{
@@ -38,6 +38,6 @@ Exemplo Json - Body:
 ```
 
 - Excluir uma pessoa
-|Method|DELETE|
-|Path|/api/pessoas/{id}|
+| Method | DELETE |
+| Path | /api/pessoas/{id} |
 
