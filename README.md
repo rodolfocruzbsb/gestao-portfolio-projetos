@@ -11,7 +11,7 @@ Projeto de Gestão de portifólio de projetos - Intuito meramente acadêmico
 ## Configuração de banco de dados
 As configurações de conexão com o banco de dados se encontram no arquivo: *src/main/resources/application.properties*
 
-O script de criação das tabelas se encontra na raiz do projeto com o nome **script_ddl.sql** , porém o projeto está configurado para criar a estrutura de tabelas automaticamente via hibernate(**hibernate.jdbc.lob.non_contextual_creation=true**) configurado no arquivo **application.properties**
+O script de criação das tabelas se encontra na raiz do projeto com o nome **script_ddl.sql** , porém o projeto está configurado para criar a estrutura de tabelas automaticamente via hibernate(**hibernate.hbm2ddl.auto = update**) configurado no arquivo **application.properties**
 
 ## API Rest para Pessoas
 Documentação da API disponível em: <a href="https://documenter.getpostman.com/view/20504/collection/6tjTfmJ" target="_blank">Postman Doc API</a>
