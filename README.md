@@ -6,15 +6,22 @@ Projeto de Gestão de portifólio de projetos - Intuito meramente acadêmico
 - Spring DATA
 
 ## API Rest para Pessoas
-- Buscar todas as pessoas
+#### Buscar todas as pessoas
+| Item | Descrição |
+| ------ | ------ |
 | Method | GET |
 | Path | /api/pessoas/ |
 
-- Buscar uma pessoa por ID
+
+#### Buscar uma pessoa por ID
+| Item | Descrição |
+| ------ | ------ |
 | Method | GET |
 | Path | /api/pessoas/{id} |
 
-- Cadastrar uma pessoa
+#### Cadastrar uma pessoa
+| Item | Descrição |
+| ------ | ------ |
 | Method | POST |
 | Path | /api/pessoas/ |
 | Headers | Content-Type: application/json |
@@ -27,7 +34,9 @@ Exemplo Json - Body:
 	}
 ```
 
-- Alterar uma pessoa
+#### Alterar uma pessoa
+| Item | Descrição |
+| ------ | ------ |
 | Method | PUT |
 | Path | /api/pessoas/{id} |
 Exemplo Json - Body: 
@@ -37,7 +46,8 @@ Exemplo Json - Body:
 	}
 ```
 
-- Excluir uma pessoa
+#### Excluir uma pessoa
+| Item | Descrição |
+| ------ | ------ |
 | Method | DELETE |
 | Path | /api/pessoas/{id} |
-
