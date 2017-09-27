@@ -8,6 +8,9 @@ Projeto de Gestão de portifólio de projetos - Intuito meramente acadêmico
 - PostgreSQL 
 - Bootstrap 4
 
+## Configuração de banco de dados
+As configurações de conexão com o banco de dados se encontram no arquivo: *src/main/resources/application.properties*
+
 ## API Rest para Pessoas
 Documentação da API disponível em: <a href="https://documenter.getpostman.com/view/20504/collection/6tjTfmJ" target="_blank">Postman Doc API</a>
 
