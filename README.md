@@ -9,6 +9,8 @@ Projeto de Gestão de portifólio de projetos - Intuito meramente acadêmico
 - Bootstrap 4
 
 ## API Rest para Pessoas
+Documentação da API disponível em: <a href="https://documenter.getpostman.com/view/20504/collection/6tjTfmJ" target="_blank">Postman Doc API</a>
+
 #### Buscar todas as pessoas
 | Item | Descrição |
 | ------ | ------ |
