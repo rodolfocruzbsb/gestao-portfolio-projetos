@@ -97,19 +97,19 @@
 				
 				<div class="form-group">
 					<label for="dataInicioInput">Data início</label>
-				    <form:input class="form-control" path="dataInicio" id="dataInicioInput" placeholder="Ex: dd/MM/yyyy HH:mm:ss" maxlength="19"/>
+				    <form:input class="form-control" path="dataInicio" id="dataInicioInput" placeholder="Ex: dd/MM/yyyy" maxlength="10"/>
 		        	<form:errors path="dataInicio" cssClass="error" />
 				</div>
 
 				<div class="form-group">
 					<label for="dataPrevisaoFimInput">Data previsão fim</label>
-				    <form:input class="form-control" path="dataPrevisaoFim" id="dataPrevisaoFimInput" placeholder="Ex: dd/MM/yyyy HH:mm:ss" maxlength="19"/>
+				    <form:input class="form-control" path="dataPrevisaoFim" id="dataPrevisaoFimInput" placeholder="Ex: dd/MM/yyyy" maxlength="10"/>
 		        	<form:errors path="dataPrevisaoFim" cssClass="error" />
 				</div>
 				
 				<div class="form-group">
 					<label for="dataFimInput">Data fim</label>
-				    <form:input class="form-control" path="dataFim" id="dataFimInput" placeholder="Ex: dd/MM/yyyy HH:mm:ss" maxlength="19"/>
+				    <form:input class="form-control" path="dataFim" id="dataFimInput" placeholder="Ex: dd/MM/yyyy" maxlength="10"/>
 		        	<form:errors path="dataFim" cssClass="error" />
 				</div>
 				

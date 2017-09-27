@@ -1,6 +1,6 @@
 package br.com.rscruz.springmvc.model;
 
-import java.time.LocalDateTime;
+import java.time.LocalDate;
 import java.util.Set;
 
 import javax.persistence.CascadeType;
@@ -42,20 +42,20 @@ public class Projeto implements Entidade<Long> {
 	@Column(name = "nome", length = 200, nullable = false)
 	private String nome;
 
-	@DateTimeFormat(pattern = "dd/MM/yyyy HH:mm:ss")
+	@DateTimeFormat(pattern = "dd/MM/yyyy")
 	@Column(name = "data_inicio")
-	private LocalDateTime dataInicio;
+	private LocalDate dataInicio;
 
-	@DateTimeFormat(pattern = "dd/MM/yyyy HH:mm:ss")
+	@DateTimeFormat(pattern = "dd/MM/yyyy")
 	@Column(name = "data_previsao_fim")
-	private LocalDateTime dataPrevisaoFim;
+	private LocalDate dataPrevisaoFim;
 
-	@DateTimeFormat(pattern = "dd/MM/yyyy HH:mm:ss")
+	@DateTimeFormat(pattern = "dd/MM/yyyy")
 	@Column(name = "data_fim")
-	private LocalDateTime dataFim;
+	private LocalDate dataFim;
 
 	@Size(max = 5000)
-	@Column(name = "descrição", length = 5000) // Nome da tabela está com caracteres no script
+	@Column(name = "descricao", length = 5000)
 	private String descricao;
 
 	@Column(name = "status", length = 45)
@@ -104,32 +104,32 @@ public class Projeto implements Entidade<Long> {
 		this.nome = nome;
 	}
 
-	public LocalDateTime getDataInicio() {
+	public LocalDate getDataInicio() {
 
 		return dataInicio;
 	}
 
-	public void setDataInicio(LocalDateTime dataInicio) {
+	public void setDataInicio(LocalDate dataInicio) {
 
 		this.dataInicio = dataInicio;
 	}
 
-	public LocalDateTime getDataPrevisaoFim() {
+	public LocalDate getDataPrevisaoFim() {
 
 		return dataPrevisaoFim;
 	}
 
-	public void setDataPrevisaoFim(LocalDateTime dataPrevisaoFim) {
+	public void setDataPrevisaoFim(LocalDate dataPrevisaoFim) {
 
 		this.dataPrevisaoFim = dataPrevisaoFim;
 	}
 
-	public LocalDateTime getDataFim() {
+	public LocalDate getDataFim() {
 
 		return dataFim;
 	}
 
-	public void setDataFim(LocalDateTime dataFim) {
+	public void setDataFim(LocalDate dataFim) {
 
 		this.dataFim = dataFim;
 	}
