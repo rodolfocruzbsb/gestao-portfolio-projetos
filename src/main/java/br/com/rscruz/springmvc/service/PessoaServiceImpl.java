@@ -134,4 +134,17 @@ public class PessoaServiceImpl implements PessoaService {
 		return this.repository.findAll(exemplo);
 	}
 
+	/**
+	 * Descrição Padrão: <br> <br>
+	 *
+	 * {@inheritDoc}
+	 *
+	 * @see br.com.rscruz.springmvc.service.PessoaService#buscarTodosCarrengandoProjetos()
+	 */
+	@Override
+	public List<Pessoa> buscarTodosCarrengandoProjetos() {
+
+		return this.repository.findAllFetchingProjects();
+	}
+
 }

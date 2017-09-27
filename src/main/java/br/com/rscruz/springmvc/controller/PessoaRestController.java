@@ -49,7 +49,7 @@ public class PessoaRestController {
 	@RequestMapping(value = "/", method = RequestMethod.GET)
 	public ResponseEntity<List<Pessoa>> recuperarTodos() {
 
-		final List<Pessoa> pessoas = this.service.buscarTodos();
+		final List<Pessoa> pessoas = this.service.buscarTodosCarrengandoProjetos();
 
 		if (pessoas.isEmpty()) {
 

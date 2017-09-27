@@ -16,6 +16,8 @@ import javax.validation.constraints.Size;
 
 import org.springframework.format.annotation.DateTimeFormat;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
+
 @Entity
 @Table(name = "pessoa")
 public class Pessoa implements Entidade<Long> {
@@ -45,6 +47,7 @@ public class Pessoa implements Entidade<Long> {
 	@Column(name = "funcionario")
 	private boolean funcionario;
 
+	@JsonIgnore
 	@ManyToMany(fetch = FetchType.LAZY, mappedBy = "membros")
 	private Set<Projeto> projetos;
 

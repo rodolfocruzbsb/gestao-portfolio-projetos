@@ -76,4 +76,13 @@ public interface PessoaService {
 	 */
 	List<Pessoa> buscarTodosFuncionarios();
 
+	/**
+	 * Método responsável por recuperar todas as pessoas carrengando seus respectivos projetos
+	 *
+	 * @author Rodolfo Cruz - rodolfocruz.ti@gmail.com
+	 *
+	 * @return
+	 */
+	List<Pessoa> buscarTodosCarrengandoProjetos();
+
 }
