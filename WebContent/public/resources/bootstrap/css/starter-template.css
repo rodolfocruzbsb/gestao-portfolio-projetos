@@ -1,0 +1,13 @@
+body {
+  padding-top: 5rem;
+}
+.starter-template {
+  padding: 3rem 1.5rem;
+  text-align: center;
+}
+
+span.error {
+  color:#DC3545;
+  font-size:0.875rem;
+  margin-top:0.25rem;
+}
