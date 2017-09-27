@@ -1,9 +1,12 @@
 # Gestão de Portfólio de projetos
 Projeto de Gestão de portifólio de projetos - Intuito meramente acadêmico
 
-## Tecnologias utilizadas
+## Principais tecnologias utilizadas
 - Spring MVC 4
 - Spring DATA
+- Wildfly-10.1.0.Final
+- PostgreSQL 
+- Bootstrap 4
 
 ## API Rest para Pessoas
 #### Buscar todas as pessoas
